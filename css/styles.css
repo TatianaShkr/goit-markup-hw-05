@@ -578,6 +578,7 @@ img {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #fff;
+  margin-bottom: 16px;
 }
 
 .form-subscribe {
@@ -603,7 +604,7 @@ img {
 .button-subscribe {
   border-radius: 4px;
   padding: 8px 24px;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   display: flex;
   justify-content: center;
@@ -611,6 +612,12 @@ img {
   background-color: #4d5ae5;
   color: #fff;
   border: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+
 }
 
 .svg-subscribe {
